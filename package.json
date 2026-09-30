@@ -1,0 +1,28 @@
+{
+  "name": "three-mini-world",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:client": "vite --host 0.0.0.0",
+    "dev:api": "node server/index.js",
+    "start": "node server/index.js",
+    "services": "node scripts/services.js",
+    "services:start": "node scripts/services.js start all",
+    "services:stop": "node scripts/services.js stop all",
+    "services:restart": "node scripts/services.js restart all",
+    "services:status": "node scripts/services.js status all",
+    "db:import": "node scripts/importDbExport.js",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1",
+    "vite": "^8.1.1"
+  },
+  "dependencies": {
+    "mongodb": "^7.5.0",
+    "three": "^0.185.1"
+  }
+}

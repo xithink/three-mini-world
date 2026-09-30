@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bract" x1="44" y1="15" x2="84" y2="78">
+      <stop offset="0" stop-color="#fff8d9"/>
+      <stop offset="1" stop-color="#b8a365"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="17" y1="53" x2="113" y2="122">
+      <stop offset="0" stop-color="#b8cfa9"/>
+      <stop offset="1" stop-color="#365c59"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#leaf)" stroke="#23403e" stroke-width="3">
+    <path d="M60 92c-20 2-34 12-44 27 25-1 39-10 44-27z"/>
+    <path d="M68 91c18 5 30 16 39 34-23-3-36-13-39-34z"/>
+    <path d="M59 87c-27 1-44-8-55-24 25-5 42 2 55 24z"/>
+    <path d="M70 86c24-5 42 0 55 15-22 8-40 3-55-15z"/>
+  </g>
+  <path d="M64 94c-2-23-1-37 0-52" stroke="#7e9669" stroke-width="9" stroke-linecap="round"/>
+  <g fill="url(#bract)" stroke="#756742" stroke-width="3" stroke-linejoin="round">
+    <path d="M64 17c14 16 14 36 0 55-14-19-14-39 0-55z"/>
+    <path d="M60 29c-17 9-23 25-18 45 18-8 24-25 18-45z"/>
+    <path d="M68 29c17 9 23 25 18 45-18-8-24-25-18-45z"/>
+  </g>
+  <circle cx="64" cy="54" r="13" fill="#8a5b95" stroke="#56345f" stroke-width="4"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="leaf" x1="17" y1="8" x2="116" y2="122">
+      <stop offset="0" stop-color="#edf0d2"/>
+      <stop offset=".48" stop-color="#7fa584"/>
+      <stop offset="1" stop-color="#2d5656"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="67" r="50" fill="#f2fbff" opacity=".24"/>
+  <g fill="url(#leaf)" stroke="#1f3c3b" stroke-width="3" stroke-linejoin="round">
+    <path d="M64 61c-13-22-13-40 0-56 13 16 13 34 0 56z"/>
+    <path d="M69 63c-1-27 13-43 34-51 3 22-9 39-34 51z"/>
+    <path d="M72 67c16-22 35-27 55-18-11 19-27 28-55 18z"/>
+    <path d="M72 73c27-10 44-4 55 13-21 7-39 3-55-13z"/>
+    <path d="M68 78c22 8 32 22 34 42-19-4-32-17-34-42z"/>
+    <path d="M60 78c-3 25-15 39-35 45-1-21 10-36 35-45z"/>
+    <path d="M56 73c-25 14-44 12-57 0 18-13 37-14 57 0z"/>
+    <path d="M57 66c-26-3-42-15-48-36 22 1 39 13 48 36z"/>
+    <path d="M61 63c-18-18-22-36-15-55 17 10 24 28 15 55z"/>
+  </g>
+  <circle cx="64" cy="69" r="17" fill="#efe9c6" stroke="#526b53" stroke-width="4"/>
+</svg>
