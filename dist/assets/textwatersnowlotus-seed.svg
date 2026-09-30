@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="soil" cx="50%" cy="62%" r="42%">
+      <stop offset="0" stop-color="#6f624d"/>
+      <stop offset="1" stop-color="#28312f"/>
+    </radialGradient>
+    <linearGradient id="seed" x1="48" y1="48" x2="83" y2="87">
+      <stop offset="0" stop-color="#ddc991"/>
+      <stop offset="1" stop-color="#765537"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="78" r="38" fill="url(#soil)"/>
+  <path d="M34 74c19-9 43-9 61 1" fill="none" stroke="#f1fbff" stroke-width="6" stroke-linecap="round" opacity=".72"/>
+  <path d="M53 61c10-17 31-1 22 18-8 17-32 8-22-18z" fill="url(#seed)" stroke="#4b3522" stroke-width="4"/>
+  <path d="M61 59c6 10 7 19 3 30" fill="none" stroke="#5d432a" stroke-width="3" stroke-linecap="round" opacity=".78"/>
+</svg>
